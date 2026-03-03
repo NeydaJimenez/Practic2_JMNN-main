@@ -15,13 +15,6 @@ def main(page: ft.Page):
         text_align=ft.TextAlign.CENTER
     )
 
-    subtitulo = ft.Text(
-        "Complete la información solicitada",
-        size=14,
-        color=ft.Colors.GREY_600,
-        text_align=ft.TextAlign.CENTER
-    )
-
     nombre_evento = ft.TextField(
         label="Nombre del evento",
         hint_text="Ej: Congreso Empresarial 2026",
